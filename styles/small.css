@@ -1,0 +1,70 @@
+* {
+    font-family: "Playfair Display", serif;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 24px auto 44px;
+    padding: 5px 0 5px 10px;
+    border-bottom: solid 1px #eee;
+    column-gap: 8px;
+    align-items: end;
+}
+
+header img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+header span {
+    font-size: 1.2rem;
+    color: #161ba7;
+}
+
+.burger {
+    background: none;
+    border: none;
+    color: #161ba7;
+    cursor: pointer;
+    font-size: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.burger::before {
+    content: "\2630";
+}
+
+.burger.show::before {
+    content: "\00D7";
+}
+
+.links {
+    display: none;
+}
+
+.links.show {
+    display: block;
+}
+
+.links ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.links a {
+    display: block;
+    padding: .8rem 10px;
+    color: #161ba7;
+    text-decoration: none;
+    border-bottom: solid 1px #eee;
+}
+
+.links li.current {
+    background-color: #eee;
+}
+
+.links a:hover {
+    background-color: #ddd;
+}
