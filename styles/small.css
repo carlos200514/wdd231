@@ -40,7 +40,7 @@ header span {
 
 .links {
     display:none;
-    background:#3a0ca3;
+    background: #0dc971;
 }
 
 .links.show {
@@ -55,16 +55,16 @@ header span {
     display:block;
     padding:12px;
     text-decoration:none;
-    color:white;
-    border-bottom:1px solid rgba(255,255,255,0.2);
+    color: #000;
+    border-bottom:1px solid #ffffff33;
 }
 
 .links a:hover {
-    background:#4361ee;
+    background: #00ff88;
 }
 
 .links li.current {
-    background:#4361ee;
+    background: #00ff88;
 }
 
 main {
@@ -84,7 +84,7 @@ section {
 
 section h2 {
     background:#3a0ca3;
-    color:white;
+    color:#ffffff;
     padding:6px;
     font-size:1rem;
     text-align:center;
@@ -112,13 +112,13 @@ section p {
     margin:6px 4px;
     border:none;
     border-radius:8px;
-    background:#4361ee;
-    color:white;
+    background: #00ff88;
+    color:#000000;
     cursor:pointer;
 }
 
 .type:hover {
-    background:#3a0ca3;
+    background: #0dc971;
 }
 
 .courses {
