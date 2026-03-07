@@ -20,6 +20,12 @@
         display: none;
     }
 
+    .myself, .photo {
+        display:inline-block;
+        width:48%;
+        vertical-align:top;
+    }
+
     .courses {
         grid-template-columns: repeat(3,1fr);
     }

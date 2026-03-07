@@ -88,8 +88,6 @@ function displayTotalCredits(courseList){
 
     const totalCredits = courseList.reduce((sum, course) => sum + course.credits, 0);
 
-    const total = document.createElement("p");
-    total.textContent = `Total Credits: ${totalCredits}`;
-
-    container.appendChild(total);
+    const total = document.querySelector("#credits");
+    total.innerHTML= totalCredits;
 }
